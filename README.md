@@ -1,3 +1,10 @@
+CORS is not set up on the SPA or the API. The SPA and API were tested with CORS disabled.
+Tested on chrome with CORS disabled using: 'chrome.exe --disable-web-security --user-data-dir=~/chromeTemp'
+(from folder: 'C:\Program Files\Google\Chrome\Application')
+
+
+# Original readMe from template:
+
 # vite-template-redux
 
 Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
