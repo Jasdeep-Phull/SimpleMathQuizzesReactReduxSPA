@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* The above CSS came with the template */
+
+/*
+    This ensures the yellow border is around the text.
+    Without this the yellow box can be much bigger horizontally than the loading message text
+*/
+.loading-message {
+    display: table;
+}
+
+/*
+    This is needed for "\n" to be recognised as a line break.
+    Without this class the text "test1\ntest2" would appear as:
+        "test1\ntest2"
+        instead of:
+        "test1
+        test2"
+*/
+.text-with-line-breaks {
+    white-space: pre-line;
+}
+
+/*
+    Sizing for all form elements
+*/
+.form-element {
+    width: 40%;
+    height: 15%;
+}
