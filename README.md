@@ -1,3 +1,9 @@
+An SPA (Single Page Application) which provides a user interface for users to create, view, edit and delete simple math quizzes. This project makes HTTP requests to the SimpleMathQuizzesAPI project for all quiz and account operations. Users must have an account.
+Uses: React, React-Redux, React Router Dom, Vite, TypeScript
+
+This uses the vite-template-redux template as a base
+
+
 CORS is not set up on the SPA or the API. The SPA and API were tested with CORS disabled.
 
 Tested on chrome with CORS disabled using: 'chrome.exe --disable-web-security --user-data-dir=~/chromeTemp'
